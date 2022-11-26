@@ -41,6 +41,7 @@ class Location
 				int flat = 0
 				);
 		std::string strGet(std::string splitter = ", ");
+		std::string cityGet();
 		bool strSet(std::string val, field index);
 };
 
@@ -51,5 +52,5 @@ class Sort
 		int size;
 	public:
 		Sort(Location* locations, int size);
-		Location* alphabet();
+		void alphabet();
 };

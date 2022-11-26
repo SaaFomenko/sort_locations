@@ -13,6 +13,11 @@ Location::Location(
 	this->flat = flat;
 }
 
+std::string Location::cityGet()
+{
+	return city;
+}
+
 std::string Location::strGet(std::string splitter)
 {
 	std::string house = std::to_string(this->house);

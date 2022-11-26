@@ -82,7 +82,7 @@ int main() {
 	fin.close();
 
 	Sort sort = Sort(locations, size);
-	Location* sort_locations = sort.alphabet();
+	sort.alphabet();
 
 	std::ofstream fout = file.out();
 
